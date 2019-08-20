@@ -20,7 +20,7 @@ def rooms(speakers)
   batch_badge_creator(speakers).each do |badge|
     puts badge
 end
-assign_rooms(speakers).each do |assignment|
+def assign_rooms(speakers).each do |assignment|
 put assignment
 end
 end
