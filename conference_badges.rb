@@ -22,6 +22,8 @@ def rooms(speakers)
 end
 assign_rooms(speakers).each do |assignment|
 put assignment
+end
+end
 #hash = Hash.new
 #%w(cat dog wombat).each_with_index { |item, index|
  # hash[item] = index
