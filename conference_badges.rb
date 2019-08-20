@@ -14,10 +14,8 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees_attending)
-  attendees_attending.each_with_index {|speaker,index| = []
-  attendees.each do |badge|
-    attendees_badges << "Hello, my name is #{badge}."
-  binding.pry
+  attendees_attending.each_with_index {|speaker,index| = "Hello, #{speaker}! You'll be assigned to room #{index+1}!"}
+end
 end
 
 
