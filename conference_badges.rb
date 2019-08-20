@@ -20,7 +20,7 @@ def rooms(speakers)
   batch_badge_creator(speakers).each do |badge|
     puts badge
 end
-assign_rooms
+assign_rooms(speakers)
 
 #hash = Hash.new
 #%w(cat dog wombat).each_with_index { |item, index|
