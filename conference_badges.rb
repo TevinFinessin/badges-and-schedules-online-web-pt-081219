@@ -14,7 +14,7 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees_attending)
-  attendees_attending = []
+  attendees_attending.each  = []
   attendees.each do |badge|
     attendees_badges << "Hello, my name is #{badge}."
   binding.pry
